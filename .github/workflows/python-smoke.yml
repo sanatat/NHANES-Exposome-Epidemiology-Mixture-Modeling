@@ -1,0 +1,31 @@
+name: Python offline smoke tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run deterministic synthetic-only smoke tests
+        run: |
+          python 07_test_zero_handling.py
+          python 10_test_pooled_builder_offline.py
+          python 14_v8_offline_math_tests.py
+          python 17_v9_offline_tests.py
+          python 19_v10_synthetic_tests.py
+          python 22_v11_offline_tests.py
+          python 24_v12_offline_tests.py
+          python 26_v13_synthetic_tests.py
+          python 28_v14_synthetic_tests.py
+          python 32_v16_offline_tests.py
+          python 34_v17_synthetic_tests.py
+          python 36_v18_tests.py
+          python 38_v19_tests.py
+          python 40_v20_tests.py

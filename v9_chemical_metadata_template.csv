@@ -1,0 +1,8 @@
+nhanes_column,analyte,chemical_class,biospecimen,is_urinary_metabolite,epa_dtxsid,validated_cas,source_url,review_status
+LBXPFHS,PFHxS,PFAS,serum,false,,,,NOT VERIFIED
+LBXPFNA,PFNA,PFAS,serum,false,,,,NOT VERIFIED
+LBXNFOA,PFOA,PFAS,serum,false,,,,NOT VERIFIED
+LBXNFOS,PFOS,PFAS,serum,false,,,,NOT VERIFIED
+URXMBP,Mono-n-butyl phthalate,phthalate biomarker,urine,true,,,,NOT VERIFIED
+URXMEP,Monoethyl phthalate,phthalate biomarker,urine,true,,,,NOT VERIFIED
+URXMIB,Monoisobutyl phthalate,phthalate biomarker,urine,true,,,,NOT VERIFIED

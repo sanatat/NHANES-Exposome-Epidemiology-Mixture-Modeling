@@ -1,0 +1,36 @@
+# Do not publish datasets, third-party exports, model outputs, or local tokens
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*api*key*.txt
+credentials*.json
+secrets*.json
+
+# Downloaded/public research data can be large and licenses/provenance vary
+data/**
+!data/.gitkeep
+results/**
+!results/.gitkeep
+
+# Local folders and archives
+*.zip
+*.sqlite
+*.sqlite3
+*.db
+*.xpt
+*.XPT
+*.parquet
+*.rds
+*.RData
+*.Rhistory
+*.log

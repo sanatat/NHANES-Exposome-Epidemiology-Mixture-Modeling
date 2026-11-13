@@ -1,0 +1,4 @@
+# Optional: query the independently maintained public ToxCast mirror for v15
+-r requirements.txt
+scigantic-comptox==0.3.1
+duckdb>=1.1,<2

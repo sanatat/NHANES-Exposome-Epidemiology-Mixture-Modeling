@@ -1,10 +1,18 @@
 cff-version: 1.2.0
-message: "If you reuse this software, cite this repository and the original NHANES and EPA data sources."
+message: "If you use this research software, please cite the repository and acknowledge the original CDC NHANES and US EPA ToxCast sources."
 title: "Environmental Exposomics, Survey Epidemiology and Chemical Mixture Modeling with NHANES 2015–2018"
 authors:
-  - name: "Project contributors"
+  - family-names: Tat
+    given-names: Sana
 type: software
 version: 1.0.0
 date-released: 2026-11-13
 license: MIT
-# Replace the generic author name and add a repository URL before publishing.
+repository-code: "https://github.com/sanatat/NHANES-Exposome-Epidemiology-Mixture-Modeling"
+url: "https://github.com/sanatat/NHANES-Exposome-Epidemiology-Mixture-Modeling"
+keywords:
+  - exposomics
+  - NHANES
+  - environmental epidemiology
+  - chemical mixtures
+  - ToxCast
